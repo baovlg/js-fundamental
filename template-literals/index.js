@@ -1,3 +1,3 @@
 const person = { name: "admin" };
 
-module.exports = `My name is ${person.name}`;
+module.exports = `Template literals: My name is ${person.name}`;

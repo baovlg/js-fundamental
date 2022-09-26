@@ -21,7 +21,7 @@ class Dialog extends EventEmitter {
 
 const dialog = new Dialog();
 dialog.on("saySth", function () {
-  console.log("Message from system: " + this.message);
+  console.log("Events module: Message from system: " + this.message);
 });
 
 dialog.sayHello();

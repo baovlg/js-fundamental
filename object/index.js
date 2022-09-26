@@ -8,7 +8,7 @@ class Object {
   }
 
   getFullName = function () {
-    console.log(this.firstName + " " + this.lastName);
+    console.log("Object: " + this.firstName + " " + this.lastName);
   };
 }
 
