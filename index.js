@@ -26,3 +26,7 @@ console.log("=============");
 var templateLiterals = require("./template-literals");
 console.log(templateLiterals);
 console.log("=============");
+
+var callNApply = require("./call-apply");
+callNApply;
+console.log("=============");
