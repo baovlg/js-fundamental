@@ -1,5 +1,6 @@
 class Person {
-  message = "person say hello world!";
+  message = "personWithoutInit say hello world!";
+
   sayHello() {
     console.log(this.message);
   }

@@ -1,5 +1,4 @@
 var Emitter = require("./emitter-clone");
-
 var emitter = new Emitter();
 
 emitter.on("bad", function () {
