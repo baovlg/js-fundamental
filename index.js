@@ -14,9 +14,8 @@ const eventEmitter = require("./event-emitter");
 eventEmitter;
 console.log("=============");
 
-var Object = require("./object");
-var personal = new Object("First-name", "Last-name");
-personal.getFullName();
+var Class = require("./class");
+Class;
 console.log("=============");
 
 var EventEmitter = require("./inherit/event-emitter");
@@ -29,4 +28,21 @@ console.log("=============");
 
 var callNApply = require("./call-apply");
 callNApply;
+console.log("=============");
+
+
+var object = require("./object");
+object;
+console.log("=============");
+
+var let = require("./let");
+let;
+console.log("=============");
+
+var hoisting = require("./hoisting");
+hoisting;
+console.log("=============");
+
+var buffer = require("./buffer");
+buffer;
 console.log("=============");
