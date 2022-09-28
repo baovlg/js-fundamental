@@ -46,3 +46,17 @@ console.log("=============");
 var buffer = require("./buffer");
 buffer;
 console.log("=============");
+
+var callback = require("./callback");
+callback;
+console.log("=============");
+
+var file = require("./file");
+file;
+console.log("=============");
+
+var stream = require("./stream");
+stream;
+
+var pipe = require("./pipe");
+pipe;

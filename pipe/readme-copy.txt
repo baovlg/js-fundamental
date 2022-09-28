@@ -1,0 +1,1 @@
+Here is a content which has read from file
